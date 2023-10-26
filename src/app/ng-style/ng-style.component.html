@@ -1,0 +1,10 @@
+<h2> ngStyle example</h2>
+
+<div [ngStyle] = "{ 'font-size.px' :fontSize, 'color':fontColor }">
+    This tex is styled dynamically
+</div>
+<label> Font size:</label>
+<input type="number" [(ngModel)]="fontSize">
+<label>Font Color</label>
+<input type="text" [(ngModel)]='fontColor'>
+
